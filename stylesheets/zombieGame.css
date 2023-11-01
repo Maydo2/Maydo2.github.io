@@ -1,0 +1,105 @@
+/* colors:
+rgb(64, 66, 88);
+rgb(71, 78, 104);
+rgb(80, 87, 122);
+rgb(107, 114, 142); */
+
+head, body{
+    padding: 0;
+    margin: 0;
+    background-color: rgb(64, 66, 88);
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+a{
+    display: block;
+    text-decoration: none;
+    color: white;
+}
+
+.topbar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    position: fixed;
+    background-color: rgb(80, 87, 122);
+    z-index: 1;
+    font-size: 16px;
+}
+.logoBtn img {
+    width: 85px !important;
+}
+
+.top-right {
+    display: flex;
+}
+
+.top-left a {
+    margin-left: 10px;
+    background-color: rgb(80, 87, 122);
+}
+
+.top-right a {
+    margin-right: 10px;
+}
+
+.topBtn{
+    height: 60px;
+    width: 100px;
+    background-color: rgb(71, 78, 104);
+    border-radius: 30px;
+    text-align: center;
+    line-height: 60px;
+    top: 50%;
+}
+
+.topBtn:hover{
+    box-shadow: 2px 0 2px 0 rgb(50, 50, 50);
+}
+
+main {
+    position: absolute;
+    display: flex;
+    width: 100%;
+    margin-top: 120px;
+    justify-content: center;
+    min-width: 660px;
+}
+
+.content{
+    font-size: 20px;
+    width: 70%;
+    padding-bottom: 100px;
+    background-color: rgb(71, 78, 104);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.picture1 {
+    width: 70%;
+    height: fit-content;
+}
+
+.projects-explanation {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+}
+
+.backButton{
+    z-index: 1;
+    position: fixed;
+    width: 100px;
+    top: 20%;
+    left: 5%;
+    height: 60px;
+    background-color: black;
+    border-radius: 30px;
+    text-align: center;
+    line-height: 60px;
+}

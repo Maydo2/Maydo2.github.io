@@ -1,0 +1,87 @@
+/* colors:
+rgb(64, 66, 88);
+rgb(71, 78, 104);
+rgb(80, 87, 122);
+rgb(107, 114, 142); */
+
+head, body{
+    padding: 0;
+    margin: 0;
+    background-color: rgb(64, 66, 88);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+a{
+    display: block;
+    text-decoration: none;
+    color: white;
+}
+
+.topbar {
+    color: white;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    position: fixed;
+    background-color: rgb(80, 87, 122);
+    z-index: 1;
+    font-size: 16px;
+}
+
+.top-right {
+    display: flex;
+}
+
+.top-left a {
+    margin-left: 10px;
+    background-color: rgb(80, 87, 122);
+}
+
+.top-right a {
+    margin-right: 10px;
+}
+
+.topBtn{
+    height: 60px;
+    width: 100px;
+    background-color: rgb(71, 78, 104);
+    border-radius: 30px;
+    text-align: center;
+    line-height: 60px;
+    top: 50%;
+}
+
+.topBtn:hover{
+    box-shadow: 2px 0 2px 0 rgb(50, 50, 50);
+}
+
+.contentBox{
+    width: 100%;
+    height: 600px;
+    padding-top: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    background-color: transparent;
+}
+.contentBox div{
+    width: 35%;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+.pfp{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.picture{
+    border-radius: 200px;
+    overflow: hidden;
+}
+
+.topText{
+    font-size: 30px;
+}
