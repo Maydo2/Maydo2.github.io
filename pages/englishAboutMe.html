@@ -7,7 +7,7 @@
     <title>portfolio</title>
     <link rel="stylesheet" href="../stylesheets/aboutMe.css">
 </head>
-<body>
+<body onload="setAboutMeText()">
     <div class="topbar">
         <div class="top-left">
             <a class="logoBtn topBtn" href="../index.html">
@@ -27,16 +27,9 @@
         <div class="pfp">
             <img class="picture" src="../images/SquarePictureOfMe.jpg" alt="image" width="350px">
         </div>
-        <div class="content">
-            <p class="topText">About me</p>
-            Welcome to my portfolio page. <br>
-            My name is Jacques Raaijmakers, I'm studying as a software developer.
-            I'm currently in my second year at Sintlucas Eindhoven.
-        </div>
+        <div class="content" id="content"></div>
     </div>
 
-</body>
-<footer>
     <script src="/scripts/EnglishOrDutch.js"></script>
-</footer>
+</body>
 </html>
