@@ -4,7 +4,7 @@ function changeLanguage(language){
     if (language === "english"){
         englishText = true;
     }
-    else{
+    else if(language === "dutch"){
         englishText = false;
     }
     console.log(englishText);
