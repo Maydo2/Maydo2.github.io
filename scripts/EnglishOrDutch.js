@@ -1,10 +1,8 @@
 function changeLanguage(language){
     if (language === "english"){
-        localStorage.removeItem("language")
         localStorage.setItem("language", "en");
     }
     else if(language === "dutch"){
-        localStorage.removeItem("language")
         localStorage.setItem("language", "nl");
     }
 }
