@@ -7,27 +7,21 @@
     <title>portfolio</title>
     <link rel="stylesheet" href="../stylesheets/aboutMe.css">
 </head>
-<body onload="setAboutMeText()">
+<body onload="setAboutMeText(); setTopBarText()">
     <div class="topbar">
         <div class="top-left">
             <a class="logoBtn topBtn" href="../index.html">
                 <img src="../images/logo.png" alt="logo" width="85" />
             </a>
         </div>
-        <div class="top-right">
-            <a class="aboutMeBtn topBtn" href="nederlandsAboutMe.html"> About Me </a>
-            <a class="projectsBtn topBtn" href="englishProjects.html">
-                Projects
-            </a>
-            <a class="resumeBtn topBtn" href="../CV/CV Jacques Raaijmakers 2022.pdf" target="_blank"> Resume </a>
-        </div>
+        <div class="top-right topBarContentAboutMe"></div>
     </div>
 
     <div class="contentBox">
         <div class="pfp">
             <img class="picture" src="../images/SquarePictureOfMe.jpg" alt="image" width="350px">
         </div>
-        <div class="content" id="content"></div>
+        <div class="content" id="aboutMeContent"></div>
     </div>
 
     <script src="/scripts/EnglishOrDutch.js"></script>
