@@ -45,3 +45,15 @@
     align-items: center;
     justify-content: center;
 }
+
+.logoBtn > div{
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 80%;
+    height: 80%;
+    background-position: center;
+}
+
+.home {
+    background-image: url("../images/home_button.png");
+}

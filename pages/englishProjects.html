@@ -9,7 +9,7 @@
 		<link rel="stylesheet" href="../stylesheets/background.css">
 		<link rel="stylesheet" href="../stylesheets/topBar.css">
 	</head>
-	<body id="scroll-page" onload="setProjectText(); setTopBarTextProject()">
+	<body id="scroll-page" onload="setProjectText(); setTopBarTextProject(); changeFlag()">
 
 		<ul class="floatingBoxes">
 			<li></li>
@@ -29,10 +29,10 @@
 		<div class="topbar">
 			<div class="top-left">
 				<a class="logoBtn topBtn" href="../index.html">
-					<img src="../images/home_button.png" alt="logo" width="55">
+					<div class="home"></div>
 				</a>
 				<a class="logoBtn topBtn" onclick="changeLanguage()" href="">
-					<img src="../images/dutch_flag.png" alt="logo" width="50">
+					<div id="flag"></div>
 				</a>
 			</div>
 			<div class="top-right" id="topBarContentProjects"></div>

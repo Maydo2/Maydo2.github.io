@@ -16,6 +16,16 @@ function changeLanguage(){
     }
 }
 
+function changeFlag(){
+    let pictureOfFlag = document.getElementById("flag");
+    if (localStorage.getItem("language") === "en"){
+        pictureOfFlag.style.backgroundImage = "url('../images/uk_flag.png')";
+    }
+    else if(localStorage.getItem("language") === "nl"){
+        pictureOfFlag.style.backgroundImage = "url('../images/dutch_flag.png')";
+    }
+}
+
 function setTopBarTextAboutMe() {
     //const topBarContent = document.getElementById("topBarContent");
     const topBarContentAboutMe = document.getElementById("topBarContentAboutMe");
