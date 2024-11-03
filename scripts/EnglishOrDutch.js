@@ -95,13 +95,13 @@ function setProjectText() {
             <a href="ProjectPages/TopDownGame_English.html">
                 <div class="project">
                     <div class="project-image-block">
-                        <h2>2D Game</h2>
+                        <h2>Top-down Game</h2>
                         <img src="../images/TopDownGame/TopDownEditor.jpg" alt="TopDownGame" />
                     </div>
                     <div class="project-text-block">
                         <p>
                         For this project I created a top-down game to challenge myself
-                        twith a new aspect in the gaming world.
+                        with a new aspect in the gaming world.
                         </p>
                         <ul class="languages">
                             <li>Unity</li>
@@ -118,8 +118,8 @@ function setProjectText() {
                     </div>
                     <div class="project-text-block">
                         <p>
-                            For this project we had te learn the basics of Javascript. 
-                            With this basic understanding of JS we had a foundation to build upon.
+                            For this project I had te learn the basics of Javascript. 
+                            With this basic understanding of JS I had a foundation to build upon.
                         </p>
                         <ul class="languages">
                             <li>JavaScript</li>
@@ -207,13 +207,12 @@ function setProjectText() {
             <a href="ProjectPages/TopDownGame_English.html">
                 <div class="project">
                     <div class="project-image-block">
-                        <h2>2D Game</h2>
+                        <h2>Top-down Game</h2>
                         <img src="../images/TopDownGame/TopDownEditor.jpg" alt="TopDownGame" />
                     </div>
                     <div class="project-text-block">
                         <p>
-                            For this project I created a top-down game to challenge myself
-                            twith a new aspect in the gaming world.
+                            Tijdens dit project heb ik mezelf uitgedaagd om een top-down spel te maken.
                         </p>
                         <ul class="languages">
                             <li>Unity</li>
@@ -225,13 +224,13 @@ function setProjectText() {
             <a href="ProjectPages/ShoppingCart_English.html">
                 <div class="project">
                     <div class="project-image-block">
-                        <h2>JS Shopping Cart</h2>
+                        <h2>JS winkel mand</h2>
                         <img src="../images/JS_ShoppingCart/JS_ShoppingCart.jpg" alt="JavaScript Assignment" />
                     </div>
                     <div class="project-text-block">
                         <p>
-                            For this project we had te learn the basics of Javascript. 
-                            With this basic understanding of JS we had a foundation to build upon.
+                            De bedoeling van dit project was om de basis van Javascript te leren.
+                            Met deze basis had ik een goede start om mijn kennis binnen JS te vergroten.
                         </p>
                         <ul class="languages">
                             <li>JavaScript</li>
