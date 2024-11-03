@@ -1,0 +1,47 @@
+.topbar {
+    color: white;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    position: fixed;
+    background-color: rgb(80, 87, 122);
+    z-index: 1;
+    font-size: 16px;
+}
+
+.top-right {
+    display: flex;
+}
+
+.top-left {
+    display: flex;
+}
+
+.top-left a {
+    margin-left: 10px;
+    background-color: rgb(80, 87, 122);
+}
+
+.top-right a {
+    margin-right: 10px;
+}
+
+.topBtn{
+    height: 60px;
+    width: 100px;
+    background-color: rgb(71, 78, 104);
+    border-radius: 30px;
+    text-align: center;
+    line-height: 60px;
+}
+
+.topBtn:hover{
+    box-shadow: 2px 0 2px 0 rgb(50, 50, 50);
+}
+
+.logoBtn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
